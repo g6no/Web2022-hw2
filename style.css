@@ -1,4 +1,5 @@
 body {
+  background-image: url(https://www.vhv.rs/dpng/d/144-1445791_transparent-movie-marquee-png-flat-movies-icon-png.png) ;
   background-color: blue;
   background-size: 50px;
   background-repeat: no-repeat;
@@ -33,6 +34,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
+}
+a:link {
+  color: red;
+  text-decoration:none;
+}
+
+a:visited {
+  color: black;
+  text-decoration:none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration:none;
+}
+
+a:active {
+  color: blue;
+  text-decoration:none;
 }
