@@ -1,6 +1,5 @@
 body {
-  background-image: url(./film.png);
-
+  background-image: url(https://demonslayer-anime.com/mugentrain/assets/img/kv.jpg) ;
   /* المطلوب الاول هنا  */
   /* اعط لون للخلفية */
   /*   : (الصورة) عدل على الخلفيه     */
@@ -8,7 +7,9 @@ body {
   /* 2. اجعل الصورة تظهر مرة واحد   */
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
-
+  background-color: blue;
+  background-size: 50px;
+  background-repeat: 1;
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie cards  اجعل ال   */
   /* hint:    flex طول قبل استخدام خواص ال body اعط ل  */
@@ -16,11 +17,15 @@ body {
 }
 
 .myimage {
+  
   /*  المطلوب الثاني هنا  */
   /* 1. 350px الطول  */
   /* 2, border radius */
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 5px grey;
 }
 
 .button {
@@ -30,6 +35,10 @@ body {
            3.remove border
            4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 500px;
+  width: 200px;
+  border: none;
+  background-color: rgb(95, 116, 160);
 }
 
 .container {
@@ -42,4 +51,11 @@ body {
          6.اجعل العناصر تظهر بمنتص البطاقة
          7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
+  background-color: lightskyblue;
+  width: 400px;
+  height: 700px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
 }
